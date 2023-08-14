@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import {Amplify} from "aws-amplify";
-import {withAuthenticator} from "@aws-amplify/ui-react";
-import "@aws-amplify/ui-reavt/style.css";
+import { Amplify } from "aws-amplify";
+import { withAuthenticator } from "@aws-amplify/ui-react";
+import "@aws-amplify/ui-react/styles.css";
 
 import awsExports from "./aws-exports";
-Amplify.conmfigure(awsExports);
+Amplify.configure(awsExports);
 
 function App({signOut, user}) {
   return (
