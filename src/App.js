@@ -19,7 +19,7 @@ function App({signOut, user}) {
             <button onClick={signOut}>サインアウト</button>
           </>
         ) : (
-          <h3>権限がありません</h3>
+          <h3>権限がありませんa</h3>
         )}
       </header>
     </div>
