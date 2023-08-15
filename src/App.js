@@ -13,14 +13,14 @@ function App({signOut, user}) {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2> Hello React app with AWS tet</h2>
-        {user ? (
+        {/* {user ? (
           <>
             <h3>私は権限を持っています:{user.username}</h3>
             <button onClick={signOut}>サインアウト</button>
           </>
         ) : (
           <h3>権限がありませんa</h3>
-        )}
+        )} */}
       </header>
     </div>
   );
